@@ -537,8 +537,6 @@ class MainMenuManager: NSObject, NSUserNotificationCenterDelegate {
         } else {
             statusItem.image = NSImage(named: "menu_icon_disabled")!
         }
-//        print("zack updateStatusItemUI")
-//        print(statusItem.highlightMode)
         statusItem.image?.isTemplate = true
     }
     
